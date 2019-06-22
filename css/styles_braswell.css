@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+.about {
+	/*	background-color: aqua;*/
+	background: linear-gradient(
+			rgba(0,184,255,0.5),
+			rgba(0,184,255,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.about:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 85%;
+	color: rgba(0,184,255,1);
+	text-shadow: 3px 2px #000000;
+}
+
+.programs {
+	/*	background-color: aqua;*/
+	background: linear-gradient(
+			rgba(255,185, 0,0.5),
+			rgba(255,185, 0,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.programs:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 85%;
+	color: rgba(255,185, 0,1);
+}
+
+/*
+Gradient:
+rgba(204,0,255,0.5),
+rgba(0,184,255,0.5)
+*/
+
+.services {
+	/*	background-color: aqua;*/
+	background: linear-gradient(
+			rgba(204,0,255,0.5),
+			rgba(204,0,255,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.services:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 85%;
+	color: rgba(204,0,255,1);
+}
+
+.gallery {
+	/*	background-color: aqua;*/
+	background: linear-gradient(
+			rgba(245,73,61,0.5),
+			rgba(245,73,61,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.gallery:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 85%;
+	color: rgba(245,73,61,1);
+}
+
+.contact {
+	/*	background-color: aqua;*/
+	background: linear-gradient(
+			rgba(29,201,87,0.5),
+			rgba(29,201,87,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.contact:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 85%;
+	color: rgba(29,201,87,1);
+}
+
+.donation {
+	/*	background-color: aqua;*/
+	background: linear-gradient(
+			rgba(0,184,255,0.5),
+			rgba(0,184,255,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.donation:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 85%;
+	color: rgba(0,184,255,1);
+}
+
+#about_inner {
+	background-color: rgba(0,184,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+	width: 80%;
+}
+
+#programs_inner {
+	background-color: rgba(0,184,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+	width: 80%;
+}
+
+.closed {
+	align-items: center;
+}
+
+.arrow {
+	padding: 10px;
+}
+
+h2 {
+	padding: 8%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
