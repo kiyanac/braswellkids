@@ -5,9 +5,15 @@ Website redesign for child care center. New design will include:
 - Part of div with section heading will have 50% opaque overlay
   - Expanded section will have same color as its background with 100% opacity
   
+  Notes:
+  - Section pics look good. Great job sis
+  - Update pg and email her no later than Monday July 22
+  
  Still Need:
- - [ ] Fix aside
- - [ ] Find and resize new pictures
- - [ ] Copy/paste formating from "Gallery" down
- - [ ] Finish adding content to each section
+ - [ ] Make content margins same as Abt
+ - [ ] Registration button on top (?)
+ - [ ] Add slideshow to gallery
+ - [ ] Rearrange Content
+ - [ ] Fix form in Content
+ - [ ] Media query for mobile
  
