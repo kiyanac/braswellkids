@@ -15,5 +15,6 @@ Website redesign for child care center. New design will include:
  - [ ] Add slideshow to gallery
  - [ ] Rearrange Content
  - [ ] Fix form in Content
+ - [ ] Attach application form to Register button
  - [ ] Media query for mobile
  
