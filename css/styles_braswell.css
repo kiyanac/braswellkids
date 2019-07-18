@@ -1,7 +1,37 @@
 @charset "UTF-8";
 /* CSS Document */
-.about {
-	/*	background-color: aqua;*/
+body {
+	background-color: #3D75B4;
+}
+aside {
+	width: 40%;
+	padding-left: .5rem;
+	margin-left: .7rem;
+	float: right;
+	font-style: italic;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	border-left-style: solid;
+	border-left-width: medium;
+}
+
+.header {
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 15px;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	padding-top: 5px;
+}
+
+.abtpic {
 	background: linear-gradient(
 			rgba(0,184,255,0.5),
 			rgba(0,184,255,0.5)
@@ -12,23 +42,30 @@
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: x-large;
+/*	height: 250px;*/
 }
 
-.about:hover {
+.abtpic:hover {
 	background: url(../images/home_girl.png);
 	background-size: cover;
-	width: 85%;
+	width: 100%;
+	height: 100%;
 	color: rgba(0,184,255,1);
 	text-shadow: 3px 2px #000000;
 }
 
-.programs {
-	/*	background-color: aqua;*/
+.about {
+	background: rgba(0,184,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.progpic {
 	background: linear-gradient(
 			rgba(255,185, 0,0.5),
 			rgba(255,185, 0,0.5)
@@ -39,28 +76,39 @@
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: x-large;
+/*	height: 250px;*/
+}
+.programs {
+	background: rgba(255,185, 0,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
+
+.progpic:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(255,185, 0,1);
+	text-shadow: 3px 2px #000000;
+}
+
+/*
 .programs:hover {
 	background: url(../images/home_girl.png);
 	background-size: cover;
 	width: 85%;
 	color: rgba(255,185, 0,1);
 }
-
-/*
-Gradient:
-rgba(204,0,255,0.5),
-rgba(0,184,255,0.5)
 */
 
-.services {
-	/*	background-color: aqua;*/
+.servpic {
 	background: linear-gradient(
 			rgba(204,0,255,0.5),
 			rgba(204,0,255,0.5)
@@ -71,22 +119,35 @@ rgba(0,184,255,0.5)
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: x-large;
 }
 
-.services:hover {
+.servpic:hover {
 	background: url(../images/home_girl.png);
 	background-size: cover;
-	width: 85%;
+	width: 100%;
+	height: 100%;
 	color: rgba(204,0,255,1);
+	text-shadow: 3px 2px #000000;
 }
 
-.gallery {
-	/*	background-color: aqua;*/
+.services {
+	background: rgba(204,0,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+/*
+Gradient:
+rgba(204,0,255,0.5),
+rgba(0,184,255,0.5)
+*/
+
+.galpic {
 	background: linear-gradient(
 			rgba(245,73,61,0.5),
 			rgba(245,73,61,0.5)
@@ -97,22 +158,28 @@ rgba(0,184,255,0.5)
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: x-large;
 }
-
-.gallery:hover {
-	background: url(../images/home_girl.png);
-	background-size: cover;
-	width: 85%;
-	color: rgba(245,73,61,1);
+.gallery {
+	background: rgba(245,73,61,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
-.contact {
-	/*	background-color: aqua;*/
+.galpic:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(245,73,61,1);
+	text-shadow: 3px 2px #000000;
+}
+
+.conpic {
 	background: linear-gradient(
 			rgba(29,201,87,0.5),
 			rgba(29,201,87,0.5)
@@ -123,22 +190,69 @@ rgba(0,184,255,0.5)
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	font-size: x-large;
 }
+.contact {
+	background: rgba(29,201,87,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
 
+.conpic:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(29,201,87,1);
+	text-shadow: 3px 2px #000000;
+}
+/*
 .contact:hover {
 	background: url(../images/home_girl.png);
 	background-size: cover;
 	width: 85%;
 	color: rgba(29,201,87,1);
 }
+*/
 
+.donpic {
+	background: linear-gradient(
+			rgba(0,184,255,0.5),
+			rgba(0,184,255,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
 .donation {
-	/*	background-color: aqua;*/
+	background: rgba(0,184,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.donpic:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(0,184,255,1);
+	text-shadow: 3px 2px #000000;
+}
+/*
+.donation {
+		background-color: aqua;
 	background: linear-gradient(
 			rgba(0,184,255,0.5),
 			rgba(0,184,255,0.5)
@@ -162,6 +276,7 @@ rgba(0,184,255,0.5)
 	width: 85%;
 	color: rgba(0,184,255,1);
 }
+*/
 
 #about_inner {
 	background-color: rgba(0,184,255,1);
@@ -191,4 +306,85 @@ h2 {
 	padding: 8%;
 	margin-top: auto;
 	margin-bottom: auto;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
+p {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	font-size: large;
+}
+
+ul {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.address {
+	text-align: center;
+	font-weight: 600;
+	font-style: italic;
+}
+button {
+	padding: 10px 25px;
+	border-radius: 10px;
+	color: #000000;
+	background-color: #EDEDED;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: large;
+}
+
+button:hover {
+	color: white;
+	background-color: #3D75B4;
+}
+
+.nav {
+	color: #3D75B4;
+	margin: 0;
+	padding: 0;
+/*	display: inline-flex;*/
+	text-align: center;
+	list-style-type: none;
+	overflow: hidden;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.nav li {
+	display: inline-block;
+}
+nav .nav li a{
+	padding: 20%;
+	text-decoration: none;
+	display: block;
+	width: auto;
+	font-size: large;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+.foot_text {
+	color: #3D75B4;
+	font-size: small;
+}
+.footer {
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
