@@ -1,0 +1,642 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (max-width: 700px){
+	#outersection .header {
+		width: 100%;
+	}
+	
+	#outersection .about {
+		width: 100%;
+	}
+	
+	#outersection .programs {
+		width: 100%;
+	}
+	
+	#outersection .services {
+		width: 100%;
+	}
+	
+	#outersection .gallery {
+		width: 100%;
+	}
+	
+	#outersection .contact {
+		width: 100%;
+	}
+	
+	#outersection .donation {
+		width: 100%;
+	}
+	
+	#outersection .footer {
+		width: 100%;
+	}
+	
+	.about #about_inner {
+		width: 95%;
+	}
+	
+	.programs #prog_inner {
+		width: 95%;
+	}
+	
+	.services #serv_inner {
+		width: 95%;
+	}
+	
+	.gallery #gal_inner {
+		width: 90%;
+	}
+	
+	.contact #con_inner {
+		width: 90%;
+	}
+	
+	.donation #don_inner {
+		width: 95%;
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	.logo {
+		width: 70%;
+		padding: 10px;
+	}
+	
+	p, span, li {
+		font-size: 16px;
+	}
+	
+	.outer_vid, .video {
+		display: none;
+	}
+	
+	iframe {
+		display: none;
+	}
+	
+	.arrow {
+		display: none;
+	}
+	
+	a h2 {
+		padding: 15%;
+	}
+	
+	.aside {
+		width: 100%;
+		padding: 0;
+		border: none;
+	}
+	
+	form {
+		width: 100%;
+	}
+	
+	#contactForm {
+		width: 100%;
+	}
+	
+	#contactName, #email {
+		width: 90%;
+	}
+	
+	textarea {
+		width: 90%;
+	}
+	
+	button, #submit {
+		width: 70%;
+	}
+}
+
+body {
+	background-color: #517FC5;
+}
+
+.outer_vid {
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+.video {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.slider {
+	transform: translate(0%, 3%);
+	width: 80%;
+	height: 400px;
+	background: url(../images/66503311_2352003015066800_1365228369477632000_n.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: visible;
+	margin: auto;
+	animation: slide 40s infinite;
+}
+
+@keyframes slide{
+	10%{
+		background: url(../images/66503311_2352003015066800_1365228369477632000_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	20%{
+		background: url(../images/65605182_2342702229330212_8918057479095451648_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	30%{
+		background: url(../images/65785331_2345570569043378_295055521566687232_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	40%{
+		background: url(../images/66490658_2351433451790423_3168020782936752128_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	50%{
+		background: url(../images/65911734_2346641668936268_7433139099906605056_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	60%{
+		background: url(../images/66383167_2350064221927346_7419979204147544064_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	70%{
+		background: url(../images/66854661_2351431268457308_5845771993927909376_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	80%{
+		background: url(../images/62483129_2346642172269551_3820029752278777856_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	90%{
+		background: url(../images/65868062_2346642358936199_5461309010038751232_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	100%{
+		background: url(../images/66427448_2351946541739114_8316825885164437504_n.jpg);
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+
+aside {
+	width: 40%;
+	padding-left: .5rem;
+	margin-left: .7rem;
+	float: right;
+	font-style: italic;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	border-left-style: solid;
+	border-left-width: medium;
+}
+
+.header {
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 15px;
+}
+
+.logo {
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding-top: 5px;
+}
+
+.abtpic {
+	background: linear-gradient(
+			rgba(0,184,255,0.5),
+			rgba(0,184,255,0.5)
+		), 
+		url(../images/home_girl.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.abtpic:hover {
+	background: url(../images/home_girl.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(0,184,255,1);
+	text-shadow: 3px 2px #000000;
+}
+
+.about {
+	background: rgba(0,184,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.progpic {
+	background: linear-gradient(
+			rgba(255,185, 0,0.5),
+			rgba(255,185, 0,0.5)
+		), 
+		url(../images/programs2.jpg);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+.programs {
+	background: rgba(255,185, 0,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+
+.progpic:hover {
+	background: url(../images/programs2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(255,185, 0,1);
+	text-shadow: 3px 2px #000000;
+}
+
+.servpic {
+	background: linear-gradient(
+			rgba(204,0,255,0.5),
+			rgba(204,0,255,0.5)
+		), 
+		url(../images/services2.jpg);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+
+.servpic:hover {
+	background: url(../images/services2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(204,0,255,1);
+	text-shadow: 3px 2px #000000;
+}
+
+.services {
+	background: rgba(204,0,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.galpic {
+	background: linear-gradient(
+			rgba(245,73,61,0.5),
+			rgba(245,73,61,0.5)
+		), 
+		url(../images/gallery2.jpg);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+.gallery {
+	background: rgba(245,73,61,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.galpic:hover {
+	background: url(../images/gallery2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(245,73,61,1);
+	text-shadow: 3px 2px #000000;
+}
+
+.conpic {
+	background: linear-gradient(
+			rgba(29,201,87,0.5),
+			rgba(29,201,87,0.5)
+		), 
+		url(../images/contact.png);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+.contact {
+	background: rgba(29,201,87,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.conpic:hover {
+	background: url(../images/contact.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(29,201,87,1);
+	text-shadow: 3px 2px #000000;
+}
+
+.donpic {
+	background: linear-gradient(
+			rgba(0,184,255,0.5),
+			rgba(0,184,255,0.5)
+		), 
+		url(../images/donate.jpg);
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: x-large;
+}
+.donation {
+	background: rgba(0,184,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.donpic:hover {
+	background: url(../images/donate.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	color: rgba(0,184,255,1);
+	text-shadow: 3px 2px #000000;
+}
+
+/* is whats giving margins*/
+#about_inner {
+	background-color: rgba(0,184,255,1);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+	width: 80%;
+}
+
+#prog_inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+#serv_inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+#gal_inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+#con_inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+#don_inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.closed {
+	align-items: center;
+}
+
+.arrow {
+	padding: 10px;
+}
+
+h2 {
+	padding: 10%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-style: normal;
+}
+
+p {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	font-size: large;
+}
+
+ul {
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.address {
+	text-align: center;
+	font-weight: 600;
+	font-style: italic;
+}
+button {
+	padding: 10px 25px;
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	color: #000000;
+	background-color: #EDEDED;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: large;
+}
+
+button:hover {
+	color: white;
+	background-color: #3D75B4;
+}
+
+button a, button a:visited {
+	color: black;
+}
+
+button a:hover {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	color: #3D75B4;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 20px;
+	list-style-type: none;
+	overflow: hidden;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.nav li {
+	display: inline-block;
+	padding-left: 2%;
+}
+nav .nav li a, nav:visited{
+	color: #0B9444;
+	padding: 20%;
+	text-decoration: none;
+	display: block;
+	width: auto;
+	font-size: large;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+}
+
+.foot_text {
+	color: #3D75B4;
+	font-size: small;
+}
+.footer {
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+form {
+	width: 48%;
+	float: left;
+	position: relative;
+	display: inline;
+}
+
+label {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+span {
+	font-weight: normal
+}
+
+#contactName, #email {
+	width: 80%;
+	height: 25px;
+	border-radius: 5px;
+}
+
+textarea {
+	width: 80%;
+	border-radius: 5px;
+}
+
+#contactForm {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+#submit {
+	padding: 10px 25px;
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	color: #000000;
+	background-color: #EDEDED;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: large;
+}
+
+#submit:hover {
+	color: white;
+	background-color: #3D75B4;
+}
